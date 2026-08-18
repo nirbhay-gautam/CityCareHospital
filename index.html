@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CityCare Hospital</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h2>CityCare Hospital</h2>
+
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#services">Services</a>
+            <a href="#appointment">Appointment</a>
+        </nav>
+
+        <p><b>Emergency:</b> +91 98765 43210</p>
+    </header>
+
+    <section id="home" class="hero">
+        <h1>Healthcare You Can Trust</h1>
+
+        <p>
+            Simple and reliable healthcare with experienced doctors
+            and modern facilities.
+        </p>
+
+        <a href="#appointment" class="button">
+            Book Appointment
+        </a>
+    </section>
+
+    <section id="services">
+        <h2>Our Departments</h2>
+
+        <div class="services">
+
+            <div class="card">
+                <h3>Cardiology</h3>
+                <p>Heart related care.</p>
+            </div>
+
+            <div class="card">
+                <h3>Neurology</h3>
+                <p>Care for the nervous system.</p>
+            </div>
+
+            <div class="card">
+                <h3>Orthopedics</h3>
+                <p>Bone and joint care.</p>
+            </div>
+
+            <div class="card">
+                <h3>Pediatrics</h3>
+                <p>Healthcare for children.</p>
+            </div>
+
+            <div class="card">
+                <h3>Dental Care</h3>
+                <p>Oral and dental care.</p>
+            </div>
+
+            <div class="card">
+                <h3>Emergency Care</h3>
+                <p>24/7 emergency assistance.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="appointment">
+        <h2>Book an Appointment</h2>
+
+        <form>
+
+            <label for="name">Full Name</label>
+            <input type="text" id="name" placeholder="Enter your name" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="Enter your email" required>
+
+            <label for="phone">Phone</label>
+            <input type="tel" id="phone" placeholder="Enter your phone number" required>
+
+            <label for="department">Department</label>
+            <select id="department">
+                <option>Select Department</option>
+                <option>Cardiology</option>
+                <option>Neurology</option>
+                <option>Orthopedics</option>
+                <option>Pediatrics</option>
+                <option>Dental Care</option>
+            </select>
+
+            <label for="date">Appointment Date</label>
+            <input type="date" id="date">
+
+            <label for="message">Reason for Visit</label>
+            <textarea id="message" rows="4"></textarea>
+
+            <button type="submit">Book Appointment</button>
+
+        </form>
+    </section>
+
+    <footer>
+        <p>CityCare Hospital | New Delhi, India</p>
+        <p>Emergency: +91 98765 43210</p>
+    </footer>
+
+</body>
+</html>
