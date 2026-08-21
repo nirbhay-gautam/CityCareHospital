@@ -29,9 +29,6 @@ nav a:hover {
     text-decoration: underline;
 }
 
-
-/* Hero */
-
 .hero {
     background-color: #dcefed;
     text-align: center;
@@ -45,7 +42,6 @@ nav a:hover {
 .hero p {
     font-size: 18px;
 }
-
 .button,
 button {
     display: inline-block;
@@ -57,19 +53,12 @@ button {
     text-decoration: none;
     cursor: pointer;
 }
-
-
-/* Sections */
-
 section {
     padding: 50px 8%;
 }
-
 section > h2 {
     text-align: center;
 }
-
-
 .services {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
